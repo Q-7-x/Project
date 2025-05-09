@@ -137,7 +137,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Training')
     parser.add_argument('--name', type=str, help='log name (default: "Exp1")', default="Exp1")
-    parser.add_argument('--epochs', type=int, help='training epochs (default: 1000)', default=1000)
+    parser.add_argument('--epochs', type=int, help='training epochs (default: 1000)', default=900)
     parser.add_argument('--batch_size', type=int, help='batch size (default: 32)', default=32)
     parser.add_argument('--learning_rate', type=float, help='learning rate (default: 2e-4)', default=2e-4)
     parser.add_argument('--use_exploration', action="store_true", help='if use exploration', default=False)
