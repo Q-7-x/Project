@@ -19,8 +19,10 @@ conda create -n smarts python=3.8
 ```
 
 ### Re-set the Version of tools
+```bash
 pip install --upgrade pip wheel==0.38.0
 pip install --upgrade pip setuptools==65.5.0
+```
 #### (Reminder) The version of these tools is set for SMARTS of 2.01, if it is updated in the future, it may need other adjustments
 
 ### Install the SMARTS simulator (2.01)
